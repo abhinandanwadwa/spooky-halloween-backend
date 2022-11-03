@@ -14,7 +14,7 @@ app.post('/sendtickets', async (req, res) => {
     service: 'hotmail',
     auth: {
         user: 'abhinandanwadhwa5@outlook.com',
-        pass: process.env.outlookPassword
+        pass: '020163SA'
     }
     });
 
